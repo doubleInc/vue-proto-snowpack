@@ -1,0 +1,19 @@
+{
+  "name": "prototyping-with-vue",
+  "version": "0.1.0",
+  "license": "MIT",
+  "scripts": {
+    "start": "snowpack dev",
+    "build": "snowpack build"
+  },
+  "dependencies": {
+    "@snowpack/plugin-dotenv": "^2.0.5",
+    "@snowpack/plugin-vue": "^2.3.0",
+    "snowpack": "^3.0.11",
+    "vue": "3"
+  },
+  "volta": {
+    "node": "15.6.0",
+    "yarn": "1.22.10"
+  }
+}
